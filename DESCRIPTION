@@ -1,6 +1,6 @@
 Package: HMP2Data
 Title: 16s rRNA sequencing data from the Human Microbiome Project 2
-Version: 1.0.0
+Version: 1.1.0
 Author:
     John Stansfield <stansfieldjc@vcu.edu>,
     Mikhail Dozmorov <mikhail.dozmorov@vcuhealth.org>
