@@ -1,10 +1,14 @@
-Package: HMP2Data
+sPackage: HMP2Data
 Title: 16s rRNA sequencing data from the Human Microbiome Project 2
 Version: 0.99.4
 Author:
     John Stansfield <stansfieldjc@vcu.edu>,
+    Ekaterina Smirnova <ekaterina.smirnova@vcuhealth.org>,
+    Ni Zhao <nzhao10@jhu.edu>,
+    Jennifer Fettweis <jennifer.fettweis@vcuhealth.org>,
+    Levi Waldron <levi.waldron@sph.cuny.edu>,
     Mikhail Dozmorov <mikhail.dozmorov@vcuhealth.org>
-Maintainer: John Stansfield <stansfieldjc@vcu.edu>
+Maintainer: John Stansfield <stansfieldjc@vcu.edu>, Ekaterina Smirnova <ekaterina.smirnova@vcuhealth.org>
 Description: 
     HMP2Data is a Bioconductor package of the Human Microbiome
     Project 2 (HMP2) 16S rRNA sequencing data. Processed data is provided as

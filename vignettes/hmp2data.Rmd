@@ -10,6 +10,9 @@ author:
 - name: Ni Zhao
   affiliation:
   - &2 The Johns Hopkins University, Baltimore, MD
+- name: Jennifer Fettweis
+  affiliation:
+  - *1   
 - name: Levi Waldron
   affiliation:
   - &3 Graduate School of Public Health and Health Policy, City University of New York, New York, NY
