@@ -23,7 +23,7 @@ The vignettes can be browsed using `browseVignettes("HMP2Data")`.
 
 The development version can be installed from this repository [https://github.com/jstansfield0/HMP2Data](https://github.com/jstansfield0/HMP2Data) using `r BiocStyle::CRANpkg("devtools")`. Install the package using the command `devtools::install_github("jstansfield0/HMP2Data")`.
 
-The stable version is available at the dozmorovlab GitHub repository [https://github.com/dozmorovlab/HMP2Data](https://github.com/dozmorovlab/HMP2Data) and can be installed using the command `devtools::install_github("dozmorovlab/HMP2Data")`.
+%The stable version is available at the dozmorovlab GitHub repository [https://github.com/dozmorovlab/HMP2Data](https://github.com/dozmorovlab/HMP2Data) and can be installed using the command `devtools::install_github("dozmorovlab/HMP2Data")`.
 
 
 ## Usage example
@@ -52,4 +52,4 @@ Please see the vignette for more information about the usage of the package.
 
 ## Contact information
 
-If you have questions, comments, or suggestions you feel free to contact John Stansfield (stansfieldjc[at]vcu[dot]edu) or Mikhail Dozmorov (mikhail.dozmorov[at]vcuhealth[dot]org).
+If you have questions, comments, or suggestions you feel free to contact John Stansfield (stansfieldjc[at]vcu[dot]edu) or Ekaterina Smirnova  (ekaterina.smirnova[at]vcuhealth[dot]org) %Mikhail Dozmorov (mikhail.dozmorov[at]vcuhealth[dot]org).
