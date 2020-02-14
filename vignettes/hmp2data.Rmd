@@ -12,7 +12,11 @@ author:
   - &2 The Johns Hopkins University, Baltimore, MD
 - name: Jennifer Fettweis
   affiliation:
+<<<<<<< HEAD
   - *1   
+=======
+  - *1 
+>>>>>>> upstream/master
 - name: Levi Waldron
   affiliation:
   - &3 Graduate School of Public Health and Health Policy, City University of New York, New York, NY
