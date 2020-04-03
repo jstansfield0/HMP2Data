@@ -4,11 +4,7 @@
 
 *[HMP2Data](http://bioconductor.org/packages/HMP2Data)* is a Bioconductor
 ExperimentData package of the Human Microbiome Project (iHMP) 16S rRNA sequencing
-<<<<<<< HEAD
 data. Taxa counts and cytokines data files are provided in the package as downloaded from the
-=======
-data. Raw data files are provided in the package as downloaded from the
->>>>>>> upstream/master
 [iHMP Data Analysis and Coordination Center](https://hmpdacc.org/ihmp/).
 See the [package vignette](vignettes/hmp2data.Rmd) for usage details. 
 Please, review the [publication moratorium](https://hmpdacc.org/ihmp/overview/datapolicy.php) when using this data.
@@ -27,7 +23,7 @@ The vignettes can be browsed using `browseVignettes("HMP2Data")`.
 
 The development version can be installed from this repository [https://github.com/jstansfield0/HMP2Data](https://github.com/jstansfield0/HMP2Data) using `r BiocStyle::CRANpkg("devtools")`. Install the package using the command `devtools::install_github("jstansfield0/HMP2Data")`.
 
-%The stable version is available at the dozmorovlab GitHub repository [https://github.com/dozmorovlab/HMP2Data](https://github.com/dozmorovlab/HMP2Data) and can be installed using the command `devtools::install_github("dozmorovlab/HMP2Data")`.
+The stable version is available at the dozmorovlab GitHub repository [https://github.com/dozmorovlab/HMP2Data](https://github.com/dozmorovlab/HMP2Data) and can be installed using the command `devtools::install_github("dozmorovlab/HMP2Data")`.
 
 
 ## Usage example
@@ -56,8 +52,6 @@ Please see the vignette for more information about the usage of the package.
 
 ## Contact information
 
-<<<<<<< HEAD
-If you have questions, comments, or suggestions you feel free to contact John Stansfield (stansfieldjc[at]vcu[dot]edu), Ekaterina Smirnova  (ekaterina.smirnova[at]vcuhealth[dot]org%), or Mikhail Dozmorov (mikhail.dozmorov[at]vcuhealth[dot]org).
-=======
-If you have questions, comments, or suggestions you feel free to contact John Stansfield (stansfieldjc[at]vcu[dot]edu) or Ekaterina Smirnova  (ekaterina.smirnova[at]vcuhealth[dot]org) %Mikhail Dozmorov (mikhail.dozmorov[at]vcuhealth[dot]org).
->>>>>>> upstream/master
+
+If you have questions, comments, or suggestions you feel free to contact John Stansfield (stansfieldjc[at]vcu[dot]edu), Ekaterina Smirnova  (ekaterina.smirnova[at]vcuhealth[dot]org), or Mikhail Dozmorov (mikhail.dozmorov[at]vcuhealth[dot]org).
+
