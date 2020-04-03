@@ -52,5 +52,5 @@ Please see the vignette for more information about the usage of the package.
 
 ## Contact information
 
-If you have questions, comments, or suggestions you feel free to contact John Stansfield (stansfieldjc[at]vcu[dot]edu), Ekaterina Smirnova  (ekaterina.smirnova[at]vcuhealth[dot]org%), or Mikhail Dozmorov (mikhail.dozmorov[at]vcuhealth[dot]org).
+If you have questions, comments, or suggestions you feel free to contact John Stansfield (stansfieldjc[at]vcu[dot]edu), Ekaterina Smirnova  (ekaterina.smirnova[at]vcuhealth[dot]org), or Mikhail Dozmorov (mikhail.dozmorov[at]vcuhealth[dot]org).
 
