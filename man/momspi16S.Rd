@@ -3,7 +3,8 @@
 \name{momspi16S}
 \alias{momspi16S}
 \title{Construct MOMS-PI 16S rRNA phyloseq object}
-\format{A phyloseq object with 7,665 taxa and 9,107 samples.
+\format{
+A phyloseq object with 7,665 taxa and 9,107 samples.
 \subsection{OTU Table}{
     A counts matrix for the rRNA-seq results.
 }
@@ -26,7 +27,8 @@
 }
 \subsection{Taxonomy Table}{
     Taxonomy table for the taxa identified.
-}}
+}
+}
 \usage{
 momspi16S()
 }

@@ -4,7 +4,9 @@
 \name{T2D16S_mtx}
 \alias{T2D16S_mtx}
 \title{T2D16S_mtx}
-\format{An object of class \code{matrix} with 12062 rows and 2208 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 12062 rows and 2208 columns.
+}
 \usage{
 T2D16S_mtx
 }

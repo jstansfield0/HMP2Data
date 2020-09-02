@@ -3,7 +3,8 @@
 \name{momspiCytokines}
 \alias{momspiCytokines}
 \title{Create MOMS-PI cytokines SummarizedExperiment object}
-\format{A SummarizedExperiment object with 29 features
+\format{
+A SummarizedExperiment object with 29 features
 and 1396 samples.
 \subsection{colData}{
      \describe{
@@ -21,7 +22,8 @@ and 1396 samples.
       \item{study_full_name}{Name of the study}
       \item{project_name}{Name of project}
      }
-}}
+}
+}
 \usage{
 momspiCytokines()
 }

@@ -4,7 +4,9 @@
 \name{IBD16S_tax}
 \alias{IBD16S_tax}
 \title{IBD16S_tax}
-\format{An object of class \code{matrix} with 982 rows and 6 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 982 rows and 6 columns.
+}
 \usage{
 IBD16S_tax
 }

@@ -4,7 +4,9 @@
 \name{T2D16S_tax}
 \alias{T2D16S_tax}
 \title{T2D16S_tax}
-\format{An object of class \code{matrix} with 12062 rows and 7 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 12062 rows and 7 columns.
+}
 \usage{
 T2D16S_tax
 }

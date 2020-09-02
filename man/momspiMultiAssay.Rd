@@ -3,7 +3,8 @@
 \name{momspiMultiAssay}
 \alias{momspiMultiAssay}
 \title{Make MOMS-PI MultiAssayExperiment}
-\format{A MultiAssayExperiment object with a 16S rRNA matrix and Cytokine matrix
+\format{
+A MultiAssayExperiment object with a 16S rRNA matrix and Cytokine matrix
 \subsection{16S}{
     A counts matrix for the 16S rRNA-seq results.
 }
@@ -26,7 +27,8 @@
       \item{study_full_name}{Name of the study}
       \item{project_name}{Name of project}
    }
-}}
+}
+}
 \usage{
 momspiMultiAssay()
 }

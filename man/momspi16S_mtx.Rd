@@ -4,7 +4,9 @@
 \name{momspi16S_mtx}
 \alias{momspi16S_mtx}
 \title{momspi16S_mtx}
-\format{An object of class \code{matrix} with 7665 rows and 9107 columns.}
+\format{
+An object of class \code{matrix} (inherits from \code{array}) with 7665 rows and 9107 columns.
+}
 \usage{
 momspi16S_mtx
 }

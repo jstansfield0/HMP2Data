@@ -3,7 +3,8 @@
 \name{IBD16S}
 \alias{IBD16S}
 \title{Create HMP2 16S sequencing data for Inflammatory Bowel Disease (IBD) phyloseq object}
-\format{A phyloseq object with 982 taxa and 178 samples.
+\format{
+A phyloseq object with 982 taxa and 178 samples.
 \subsection{OTU Table}{
     A counts matrix for the rRNA-seq results.
 }
@@ -17,7 +18,8 @@
 }
 \subsection{Taxonomy Table}{
     Taxonomy table for the taxa identified.
-}}
+}
+}
 \usage{
 IBD16S()
 }

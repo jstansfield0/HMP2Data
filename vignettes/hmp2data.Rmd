@@ -331,10 +331,15 @@ Here we plot the body sites which samples were taken from for each patient in th
 
 ```{r, fig.height=6, fig.width=10}
 # set up data.frame for UpSetR
-momspi_upset <- aggregate(momspi16S_samp$sample_body_site, by = list(momspi16S_samp$subject_id), table)
+tmp_data <- split(momspi16S_samp, momspi16S_samp$subject_id)
+momspi_upset <- lapply(tmp_data, function(x) {
+  table(x$sample_body_site)
+})
+momspi_upset <- bind_rows(momspi_upset)
 tmp <- as.matrix(momspi_upset[, -1])
 tmp <- (tmp > 0) *1
-momspi_upset <- data.frame(patient = momspi_upset$Group.1, tmp)
+tmp[is.na(tmp)] <- 0
+momspi_upset <- data.frame(patient = names(tmp_data), tmp)
 
 # plot
 upset(momspi_upset, order.by = 'freq', matrix.color = "blue", text.scale = 2)
@@ -346,10 +351,15 @@ Here we plot the body sites which samples were taken from for each patient in th
 
 ```{r}
 # set up data.frame for UpSetR
-momspiCyto_upset <- aggregate(momspiCyto_samp$sample_body_site, by = list(momspiCyto_samp$subject_id), table)
+tmp_data <- split(momspiCyto_samp, momspiCyto_samp$subject_id)
+momspiCyto_upset <- lapply(tmp_data, function(x) {
+  table(x$sample_body_site)
+})
+momspiCyto_upset <- bind_rows(momspiCyto_upset)
 tmp <- as.matrix(momspiCyto_upset[, -1])
 tmp <- (tmp > 0) *1
-momspiCyto_upset <- data.frame(patient = momspiCyto_upset$Group.1, tmp)
+tmp[is.na(tmp)] <- 0
+momspiCyto_upset <- data.frame(patient = names(tmp_data), tmp)
 
 # plot
 upset(momspiCyto_upset, order.by = 'freq', matrix.color = "blue", text.scale = 2)
@@ -359,16 +369,21 @@ upset(momspiCyto_upset, order.by = 'freq', matrix.color = "blue", text.scale = 2
 
 The IBD patients only had samples taken from the feces.
 
-<!-- ```{r} -->
-<!-- # set up data.frame for UpSetR -->
-<!-- IBD_upset <- aggregate(IBD16S_samp$sample_body_site, by = list(IBD16S_samp$subject_id), table) -->
-<!-- tmp <- as.matrix(IBD_upset[, -1]) -->
-<!-- tmp <- (tmp > 0) *1 -->
-<!-- IBD_upset <- data.frame(patient = IBD_upset$Group.1, tmp) -->
+```{r}
+# set up data.frame for UpSetR
+tmp_data <- split(IBD16S_samp, IBD16S_samp$subject_id)
+IBD_upset <- lapply(tmp_data, function(x) {
+  table(x$biopsy_location)
+})
+IBD_upset <- bind_rows(IBD_upset)
+tmp <- as.matrix(IBD_upset[, -1])
+tmp <- (tmp > 0) *1
+tmp[is.na(tmp)] <- 0
+IBD_upset <- data.frame(patient = names(tmp_data), tmp)
 
-<!-- # plot -->
-<!-- upset(IBD_upset, order.by = 'freq') -->
-<!-- ``` -->
+# plot
+upset(IBD_upset, order.by = 'freq', matrix.color = "blue", text.scale = 2)
+```
 
 
 ### T2D data
@@ -377,10 +392,15 @@ Here we plot the body sites which samples were taken from for each patient in th
 
 ```{r}
 # set up data.frame for UpSetR
-T2D_upset <- aggregate(T2D16S_samp$sample_body_site, by = list(T2D16S_samp$subject_id), table)
-tmp <- as.matrix(T2D_upset[, -1])
+tmp_data <- split(T2D16S_samp,T2D16S_samp$subject_id)
+T2D_upset <- lapply(tmp_data, function(x) {
+  table(x$sample_body_site)
+})
+T2D_upset <- bind_rows(T2D_upset)
+tmp <- as.matrix(T2D_upset)
 tmp <- (tmp > 0) *1
-T2D_upset <- data.frame(patient = T2D_upset$Group.1, tmp)
+tmp[is.na(tmp)] <- 0
+T2D_upset <- data.frame(patient = names(tmp_data), tmp)
 
 # plot
 upset(T2D_upset, order.by = 'freq', matrix.color = "blue", text.scale = 2)
